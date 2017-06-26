@@ -1,6 +1,6 @@
 # tests for failure of resolving dependency
 
-## projects description
+## description of projects
 
 * Lib.A,Lib.B
     * same assembly name
@@ -19,9 +19,10 @@
     * compilation of net47 is OK, but failed on netcoreapp2.0
     * PackageReference order is not affected to result.
 
-## outputs
+## program output
 
-|project name|output|
-|App.OK      |prop=Y|
-|App.NG      |prop=X|
-|App.NG.Dep  |prop=Y|
+|project name|output                      |
+|------------|----------------------------|
+|App.OK      |prop=Y(netcoreapp2.0==net47)|
+|App.NG      |prop=X                      |
+|App.NG.Dep  |prop=Y                      |
