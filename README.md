@@ -1,5 +1,27 @@
 # tests for failure of resolving dependency
 
+this repository is tested on following environment
+```
+.NET Command Line Tools (2.0.0-preview1-005977)
+
+Product Information:
+ Version:            2.0.0-preview1-005977
+ Commit SHA-1 hash:  414cab8a0b
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  6.3.9600
+ OS Platform: Windows
+ RID:         win81-x64
+ Base Path:   C:\Program Files\dotnet\sdk\2.0.0-preview1-005977\
+
+Microsoft .NET Core Shared Framework Host
+
+  Version  : 2.0.0-preview1-002111-00
+  Build    : 1ff021936263d492539399688f46fd3827169983
+
+```
+
 ## description of projects
 
 * Lib.A,Lib.B
